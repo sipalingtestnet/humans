@@ -9,7 +9,7 @@ echo "      ██ ██         ██        ";
 echo " ███████ ██         ██    	 ";
 echo "================================"
 echo -e "\e[0m"
-echo -e '\e[33mNama Project =\e[55m' HUMANS
+echo -e '\e[33mNama Project =\e[55m' HUMANS IA
 echo -e '\e[33mKomunitas Kami =\e[55m' Sipaling Testnet
 echo -e '\e[33mChannel Telegram =\e[55m' https://t.me/ssipalingtestnet
 echo -e '\e[33mGroup Telegram =\e[55m' https://t.me/diskusisipalingairdrop

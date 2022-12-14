@@ -31,12 +31,4 @@ rm "go$ver.linux-amd64.tar.gz" && \
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile && \
 source $HOME/.bash_profile && \
 go version
-echo -e "\e[1m\e[32m4. Download bahan... \e[0m" && sleep 1
-git clone https://github.com/humansdotai/humans
-cd humans
-git checkout v1
-go build -o humansd cmd/humansd/main.go
-mv humansd /root/go/bin/humansd
-echo -e "\e[1m\e[32m4. Download Snapshoot to 345.885... \e[0m" && sleep 1
-wget -O snapshot.sh https://raw.githubusercontent.com/vinjan23/Testnet.Guide/main/HumanAI/snapshot.sh && chmod +x snapshot.sh && ./snapshot.sh
 echo '--------------DONO----------------'

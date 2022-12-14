@@ -37,5 +37,6 @@ cd humans
 git checkout v1
 go build -o humansd cmd/humansd/main.go
 mv humansd /root/go/bin/humansd
+echo -e "\e[1m\e[32m4. Download Snapshoot to 345.885... \e[0m" && sleep 1
 wget -O snapshot.sh https://raw.githubusercontent.com/vinjan23/Testnet.Guide/main/HumanAI/snapshot.sh && chmod +x snapshot.sh && ./snapshot.sh
 echo '--------------DONO----------------'
